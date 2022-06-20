@@ -4,7 +4,7 @@
 set fechaArchivo to do shell script "/bin/date +%d%m%y"
 
 tell application "Finder"
-	set plainTextFile to make new file at desktop with properties {name:fechaArchivo}
+	set plainTextFile to make new file at desktop with properties {name:fechaArchivo & ".txt"}
 end tell
 
 -- Comenta el códido de abajo si solo deseas crear el archivo pero no abrirlo
