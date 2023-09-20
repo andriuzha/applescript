@@ -1,7 +1,7 @@
--- Este script ayuda a genear una USB de instalación del sistema macOS
+-- Este script ayuda a generar una USB de instalación del sistema macOS
 -- Requiere tener descargado el instalador de la actualización
 
---Solicta la ruta del instaldor
+--Solicita la ruta del instaldor
 set archivoInstalacion to choose file with prompt "Selecciona la applicación de macOS:" default location "/Applications" without invisibles
 set rutaPOSIXMac to quoted form of POSIX path of archivoInstalacion
 
