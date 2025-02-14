@@ -8,7 +8,7 @@ set archivosOrigen to choose file with prompt "Elija la carpeta que contiene los
 --Espera de un segundo para que la ventana de selección se pueda cerrar
 delay 1
 
-tell application "iTunes"
+tell application "Music"
 	--Estableciendo el codec (puedes cambiarlo según tus preferencias
 	set current encoder to encoder "Lossless Encoder"
 	--Límite de espera de 1 hora para todos los archivos
